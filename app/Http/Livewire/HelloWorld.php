@@ -6,10 +6,10 @@ use Livewire\Component;
 
 class HelloWorld extends Component
 {
+    public $name = 'Kalkulus';
+    
     public function render()
     {
-        return view('livewire.hello-world', [
-            'name' => 'Kalkulus',
-        ]);
+        return view('livewire.hello-world');
     }
 }
