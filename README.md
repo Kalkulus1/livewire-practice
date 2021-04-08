@@ -9,4 +9,7 @@ Livewire is a full-stack framework for Laravel that makes building dynamic inter
 ### Install livewire
 `composer require livewire/livewire`
 
-### 
+### Make a demo hello-world livewire component
+`php artisan make:livewire hello-world`
+
+

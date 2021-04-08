@@ -17,9 +17,7 @@
         @livewireStyles
     </head>
     <body>
-        <h3>
-            Hello World!
-        </h3>
+        @livewire('hello-world')
 
 
         @livewireScripts
