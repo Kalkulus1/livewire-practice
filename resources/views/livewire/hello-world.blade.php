@@ -1,6 +1,6 @@
 <div>
     <h3>
-        <input type="text" wire:model.debounce.1000ms="name">
+        <input type="text" wire:model.lazy="name">
 
         Hello {{ $name }}!
     </h3>
