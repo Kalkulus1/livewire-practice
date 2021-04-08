@@ -4,6 +4,12 @@
 
         <input wire:model="loud" type="checkbox">
 
-        Hello {{ $name }} @if ($loud) ! @endif
+        <select wire:model="greeting">
+            <option>Hello</option>
+            <option>Good evening</option>
+            <option>Goodbye</option>
+        </select>
+
+        {{ $greeting }} {{ $name }} @if ($loud) ! @endif
     </h3>
 </div>
